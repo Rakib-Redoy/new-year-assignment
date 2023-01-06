@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 15px;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* --------Header area styles starts-------- */
+.header{
+    background-image: url(../images/banner/banner2.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-text {
+    padding: 130px 120px;
+    text-align: right;
+}
+.color-r{
+    color: #20bf6b;
+}
+.header-text h1{
+    color: #151414;
+    font-weight: 700;
+    font-size: 50px;
+}
+.header-text p{
+    margin: 20px 0 30px 0;
+    color: #444343;
+    font-size: 14px;
+    line-height: 25px;
+}
+/* --------Header area styles End-------- */
+
+/* --------Failure Area styles start-------- */
+
+.failure {
+    padding: 0 185px;
+    margin-top: 100px;
+}
+.failure-content{
+    display: flex;
+}
+.failure-image img{
+    height: 80%;
+}
+.failure-details {
+    padding: 60px;
+    margin-top: 80px;
+    margin-left: -115px;
+}
+.main-text{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.para-text{
+    color: #444343;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.failure-list li{
+    list-style-type: none;
+    margin: 0 0 0 -38px;
+    margin-top: 20px;
+}
+
+.icon{
+    color:  #16D887;
+}
+
+/* --------Failure Area styles End-------- */
+
+/* ------------Plans Area Start----------- */
+
+.plans{
+    padding: 0 185px 120px 185px;
+}
+.update-text{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.my-plans{
+    display: flex;
+    gap: 80px;
+
+}
+.plan-item{
+    margin: auto;
+    text-align: center;
+}
+.plan-item h2{
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.plan-item h4{
+    color: #737272;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ------------Plans Area Start----------- */
+.quets{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 50px 185px;
+}
+.btn-modification{
+    background-color: #fff;
+    color: black;
+    margin: 30px 20px;
+}
+.quets-details{
+    padding: 0 0;
+}
+.quets-details h2{
+    font-size: 31px;
+    font-weight: 700;
+    padding: 60px 0 30px 60px;
+}
+.button{
+    /* margin: -44px 0px 0 36px; */
+    margin-top: 
+}

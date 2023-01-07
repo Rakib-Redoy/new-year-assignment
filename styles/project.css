@@ -19,6 +19,8 @@
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 .header-text {
     padding: 130px 120px;
@@ -80,11 +82,52 @@
 }
 
 /* --------Failure Area styles End-------- */
+.tour-plan{
+    padding: 20px 185px;
+    margin-bottom: 100px;
+    background-color: #4443430e;
+}
+.tour-details h1{
+    color: #151414;
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+.places{
+   background-color: #fff;; 
+   padding: 20px 30px;
+   border-radius: 145px 145px 26px 26px;
+}
+.places h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #F15B22;
+}
+.places p{
+    margin-bottom: 40px;
+}
+.places img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.tour-places{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.color-o{
+    color: #F15B22;
+}
+
 
 /* ------------Plans Area Start----------- */
 
 .plans{
-    padding: 0 185px 120px 185px;
+    padding: 0 185px 120px 230px;
 }
 .update-text{
     text-align: center;
@@ -98,7 +141,6 @@
 
 }
 .plan-item{
-    margin: auto;
     text-align: center;
 }
 .plan-item h2{
@@ -129,7 +171,7 @@
 }
 .btn-modification{
     background-color: #fff;
-    color: black;
+    color: #F15B22;
     margin-left: 55px;
     margin-bottom: 55px;
 }
@@ -187,6 +229,7 @@
     border: 1px solid #fff;
     border-radius: 5px;
     background-color: #151414;
+    color: #fff;
 }
 .btn-footer{
     background: #fff;
@@ -197,3 +240,8 @@
     border: 0;
     color: #F15B22;
 }
+.copyright{
+    color: #444343;
+    margin-top: 30%;
+}
+/* -----------Footer-area End---------- */

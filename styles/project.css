@@ -119,22 +119,76 @@
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 50px 185px;
+    margin: 0px 185px 100px 185px;
+    border-radius: 10px;
 }
 .btn-modification{
     background-color: #fff;
     color: black;
-    margin: 30px 20px;
+    margin-left: 55px;
+    margin-bottom: 55px;
 }
-.quets-details{
-    padding: 0 0;
-}
+
 .quets-details h2{
-    font-size: 31px;
+    font-size: 32px;
     font-weight: 700;
     padding: 60px 0 30px 60px;
+    color:#fff;
 }
-.button{
-    /* margin: -44px 0px 0 36px; */
-    margin-top: 
+
+/* ------------Plans Area End----------- */
+
+/* -----------Footer-area Start---------- */
+
+.footer-area{
+    display: flex;
+    background: #151414;
+    padding: 90px 90px 30px 90px;
+}
+.footer-text h1{
+    color: #151414;
+    font-size: 34px;
+    font-weight: 800;
+    color: #fff;
+}
+.footer-text p{
+    font-weight: 400;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-content{
+    padding-left: 90px;
+}
+.footer-contacts{
+    display: flex;
+}
+.footer-contacts .images{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.footer-input{
+    padding-left: 274px;
+}
+.footer-input h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.input-field{
+    padding: 14px 90px 14px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #151414;
+}
+.btn-footer{
+    background: #fff;
+    padding: 13px 24px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    color: #F15B22;
 }

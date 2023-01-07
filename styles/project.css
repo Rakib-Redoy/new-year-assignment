@@ -116,7 +116,12 @@
 
 /* ------------Plans Area Start----------- */
 .quets{
-    background-image: url(../images/watch.png);
+    background: linear-gradient(to right,
+    rgba(241, 91, 34, 0.7),
+    rgba(241, 91, 34, 0.418),
+    rgba(241, 91, 34, 0.205)),
+    url(../images/watch.png);
+    
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0px 185px 100px 185px;

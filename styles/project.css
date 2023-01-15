@@ -99,6 +99,7 @@
    background-color: #fff;; 
    padding: 20px 30px;
    border-radius: 145px 145px 26px 26px;
+   border: 1px solid #f1222271;
 }
 .places h3{
     font-size: 28px;
@@ -112,6 +113,7 @@
 .places img{
     width: 100%;
     border-radius: 50%;
+    border: 2px solid #F15B22;
     margin-bottom: 40px;
 }
 .tour-places{
